@@ -1,0 +1,165 @@
+#define DESERIALIZE_HELPER_0(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_1, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_1(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_2, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_2(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_3, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_3(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_4, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_4(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_5, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_5(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_6, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_6(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_7, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_7(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_8, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_8(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_9, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_9(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_10, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_10(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_11, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_11(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_12, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_12(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_13, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_13(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_14, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_14(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_15, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_15(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_16, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_16(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_17, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_17(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_18, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_18(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_19, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_19(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_20, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_20(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_21, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_21(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_22, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_22(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_23, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_23(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_24, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_24(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_25, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_25(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_26, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_26(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_27, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_27(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_28, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_28(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_29, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_29(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_30, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_30(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_31, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_31(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_32, XX, CTX, __VA_ARGS__)
+
+#define DESERIALIZE_HELPER_32(XX, CTX, X1, X2, ...)                       \
+XX(CTX, X1, X2)                                                      \
+HELPER_CONCAT(HELPER_INVOKE_IF_NOT_EMPTY_, HELPER_NARG(__VA_ARGS__)) \
+(DESERIALIZE_HELPER_33, XX, CTX, __VA_ARGS__)
+

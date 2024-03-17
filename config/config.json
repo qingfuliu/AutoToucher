@@ -1,0 +1,35 @@
+{
+  "python": "exe",
+  "mouseMover": {
+    "curve": "",
+    "delay": 100
+  },
+  "mouseClicker": {
+    "DoubleClickInterval": "100"
+  },
+  "window1": {
+    "name": "清辉",
+    "detector": [
+      {
+        "name": "name1",
+        "type": "oneExists",
+        "imagePath": "",
+        "action": "mouseClicker"
+      },
+      {
+        "name": "name1",
+        "type": "oneCount",
+        "threshold": 3,
+        "imagePath": "",
+        "action": "mouseClicker"
+      },
+      {
+        "name": "name1",
+        "type": "oneCount",
+        "threshold": 3,
+        "imagePaths": [],
+        "action": "mouseClicker"
+      }
+    ]
+  }
+}
